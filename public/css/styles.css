@@ -578,12 +578,43 @@ button.button-send{
 }
 
 @media(min-width:1440px){
+    div.header-global{
+        display:flex;
+        padding: 0%;
+        position: relative;
+        margin-bottom: 20px;
+        align-items: center;
+        align-content: center;
+    }
+
+    img.logo{
+        width: 200px;
+    }
+
+    header div.header-global p{
+        width: 400px;
+        margin-top: 0%;
+        font-size: unset;
+        align-items: center;
+    }
+    
+    .barra-de-busqueda{
+        display: flex;
+        justify-content: center;
+    }
+
+    .barra-de-busqueda input{
+        width: 600px;
+        text-align: center;
+    }
+
+    i.fas.fa-hand-holding-usd{
+        font-size: 20px;
+    }
     .menu{
         display: none;
     }
-    header ul li a{
-        font-size: x-large;
-    }
+
     .art-footer{
         max-width: 30%;
     }
@@ -599,12 +630,15 @@ button.button-send{
     }
     .barra-de-busqueda input{
         width: 800px;
-        height: 60px;
+        height: 30px;
     }
     .barra-de-busqueda i{
         font-size: 60px;
     }
 
+    .barra-de-busqueda i{
+        font-size: 20px;
+    }
     header ul li a{
         font-size: xx-large;
 }
@@ -613,6 +647,8 @@ button.button-send{
         font-size: xxx-large;
     }
 }
+
+
 
 
 
